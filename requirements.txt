@@ -1,0 +1,31 @@
+streamlit>=1.34.0
+PyMuPDF>=1.23.0
+python-docx>=1.1.0
+pandas>=2.2.0
+nltk>=3.8.1
+spacy>=3.7.2
+pyttsx3>=2.90
+python-dotenv>=1.0.1
+python-dateutil>=2.9.0.post0
+
+# Optional: IBM services (enable if you have credentials)
+ibm-watson>=7.0.0
+ibm-watsonx-ai>=1.1.14
+
+# Hugging Face transformers for local Granite fallback
+transformers>=4.41.0
+accelerate>=0.31.0
+huggingface_hub>=0.23.0
+# Install a matching torch build for your system (CPU or CUDA)
+# CPU only:
+# torch>=2.3.0
+# CUDA (example for cu121):
+# torch==2.3.0+cu121 --index-url https://download.pytorch.org/whl/cu121
+
+# OCR for scanned PDFs (requires separate Tesseract install)
+pillow>=10.3.0
+pytesseract>=0.3.10
+opencv-python-headless>=4.9.0.80
+
+# Graph visualization
+graphviz>=0.20.3

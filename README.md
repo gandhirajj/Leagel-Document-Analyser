@@ -30,7 +30,7 @@ Live Deploy Link: https://leagel-document-analyser-19.streamlit.app/
 
 ### 4. **Named Entity Recognition (NER)**
 - **Entities**: Parties, Dates, Money, Obligations, Emails, URLs
-- **Methods**: IBM Watson NLU (primary) + spaCy (fallback)
+- **Methods**: IBM Granite + spaCy (fallback)
 - **Flow**: Text → Entity extraction → DataFrame display
 - **Status**: ✅ Complete
 
@@ -42,14 +42,13 @@ Live Deploy Link: https://leagel-document-analyser-19.streamlit.app/
 
 ### 6. **Document Type Classification**
 - **Types**: NDA, Lease, Employment Agreement, Service Agreement
-- **Methods**: IBM Watson + Granite + Heuristic rules
+- **Methods**: IBM  Granite + Heuristic rules
 - **Flow**: Document text → Classification → Confidence score
 - **Status**: ✅ Complete
 
 ### 7. **Lease Timeline Visualization**
 - **Features**: Start date, Term, End date extraction
-- **Visual**: Graphviz flowchart
-- **Flow**: Lease detection → Date parsing → Timeline diagram
+- **Flow**: Lease detection → Date parsing → Timeline information
 - **Status**: ✅ Complete
 
 ### 8. **Text-to-Speech (TTS)**

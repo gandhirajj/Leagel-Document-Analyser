@@ -122,13 +122,7 @@ pip install pytesseract easyocr opencv-python-headless pillow
 - Check language code mapping
 - Verify OCR engine support
 
-## 🎯 **NEXT STEPS (Optional)**
 
-1. **Fine-tune OCR** for specific document types
-2. **Add more languages** as needed
-3. **Custom clause patterns** for your domain
-4. **Batch processing** for multiple documents
-5. **API endpoints** for integration
 
 ## 📊 **FEATURE STATUS SUMMARY**
 
